@@ -8,3 +8,13 @@ for nombre in nombres:
     print(nombre)
 
 print("Elena" in nombres)
+
+nombres.add("Pedro")
+print(nombres)
+
+nombres.remove("Elena")
+print(nombres)
+
+# Elimina elemento aleatoriamente
+nombres.pop()
+print(nombres)
