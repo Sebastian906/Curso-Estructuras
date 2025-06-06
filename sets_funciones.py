@@ -11,3 +11,6 @@ print(lenguajes1.isdisjoint(lenguajes2))
 
 mas_lenguajes = {"Ruby", "Rust"}
 print(lenguajes1.isdisjoint(mas_lenguajes))
+
+diferencias = lenguajes1.difference(lenguajes2)
+print(diferencias)
