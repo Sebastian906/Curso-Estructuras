@@ -6,3 +6,8 @@ print(todos_lenguajes)
 
 coincidencias = lenguajes1.intersection(lenguajes2)
 print(coincidencias)
+
+print(lenguajes1.isdisjoint(lenguajes2))
+
+mas_lenguajes = {"Ruby", "Rust"}
+print(lenguajes1.isdisjoint(mas_lenguajes))
